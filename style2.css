@@ -1,0 +1,53 @@
+html {font-size: 10px; font-family: "Roboto", serif;}
+*{box-sizing: border-box;}
+.clearfix::after {content: "";clear: both; display: table; }
+* h1 {text-align: center; color: blue; margin:5rem 5rem; padding: 2rem 0; font-size: 7rem; font-weight: 600;}
+* p {justify-content:flex-start; padding:0 0,5rem 5rem 20vh; line-height: 1.2; margin-bottom: 5rem; font-size: 4rem;} 
+/*Header*/
+
+    header {position:fixed; top:0; left:0; width:100%; display:flex; justify-content:space-between; align-items:center; height:10rem; padding:0.75rem 5rem; background-color:lightgrey; z-index:1;}
+    header + * {margin-top:8rem;}
+        .navigation {display:inline-block; text-align:center;}
+        .navigation > a {display:inline-block; padding:0.5rem 1rem; text-decoration:none; color:blue; font-size:2rem;}
+        .navigation > a:hover {background-color:lightblue; color:white;}
+        .navigation > a:active {background-color:blue; color:white;}
+            .logo > img {width:8rem; height:8rem; border-radius:50%;}
+        .navigation > a {font-size: 3rem;}
+
+/*Header*/
+
+/*Acasa*/
+    .hero-section-one{ position:relative; top 0; left: 0; width: 100; height: 100%;}
+        .video {position: inherit; top: 0; left: 0; width: 100%; height: 100%;}
+/*Acasa*/
+
+/*Despre noi*/
+
+   
+    .hero-section-two {background-color: lightgray; margin:0rem; }
+
+/*Despre noi*/
+
+/*Servicii*/
+
+.section-three{background-color:darkgrey;}
+.container{display: flex; padding: 5rem 5rem;}
+    h2 {font-size: 5rem; font-weight: 600; color:indigo; text-align: center;}
+    h3 {font-size: 4rem; font-weight: 500; color: black; text-align: center; margin-bottom: 5rem;}
+    p {font-size: 3rem; font-weight: 400; color: black; text-align: center;}
+    .card-1 > img {display: flex;justify-content: center; align-items: center; width: 15rem; height: 15rem;}
+    .grid-container {display: grid;grid-template-columns: auto auto auto auto; }
+    
+/*Servicii*/
+
+/*Certificari*/
+
+.section-four {background-color: lightgray;}
+
+/*Certificari*/
+
+/*Contact*/
+
+.hero-section-five {background-color: darkgrey; font-size: 4rem; font-weight: 500;}
+/*Contact*/
+
